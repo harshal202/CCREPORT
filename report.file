@@ -1,8 +1,8 @@
-##scope of the project
+#scope of the project
 The primary objective of this project is to analyze credit card customer data using SQL for data preparation and Power BI for data visualization. This project aims to extract meaningful insights
 into customer demographics, credit usage behavior, and financial patterns to support data-driven decision-making for customer management and risk assessment.
 
-##Files Overview:
+#Files Overview:
 1. customer.csv
 Contains personal and demographic details of credit card customers.
 Possible columns (assumed):
