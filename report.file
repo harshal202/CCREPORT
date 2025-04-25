@@ -1,0 +1,50 @@
+##scope of the project
+The primary objective of this project is to analyze credit card customer data using SQL for data preparation and Power BI for data visualization. This project aims to extract meaningful insights
+into customer demographics, credit usage behavior, and financial patterns to support data-driven decision-making for customer management and risk assessment.
+
+##Files Overview:
+1. customer.csv
+Contains personal and demographic details of credit card customers.
+Possible columns (assumed):
+•	Customer_ID
+•	Name
+•	Gender
+•	Age
+•	Income
+•	Location
+•	Marital_Status
+•	Education_Level
+2. credit_card.csv
+Contains transaction and usage patterns of customers.
+Possible columns (assumed):
+•	Customer_ID
+•	Credit_Limit
+•	Balance
+•	Purchases
+•	Payments
+•	Tenure
+•	Credit_Score
+•	Monthly_Charges
+________________________________________
+🛠️ Scope of SQL Use:
+1.	Data Cleaning & Transformation:
+o	Handle missing or invalid values.
+o	Normalize and join datasets.
+o	Create new derived metrics like credit utilization (Balance / Credit_Limit), payment ratio (Payments / Purchases), etc.
+2.	Analytical Queries:
+o	Total customers by gender, location, age group.
+o	Average credit usage by demographic.
+o	Identify high-risk customers (e.g., high utilization + low payment).
+o	Segment customers based on usage patterns.
+________________________________________
+📊 Scope of Power BI Use:
+1.	Data Model:
+o	Import both CSVs and create relationships (e.g., via Customer_ID).
+o	Apply filters and calculated columns using DAX.
+2.	Dashboard Components:
+o	Customer Demographics: Pie charts, bar graphs (gender, age, income).
+o	Credit Usage: KPIs (total balance, avg. purchases, avg. payments).
+o	Risk Assessment: Highlight customers with high credit risk.
+o	Segmentation View: Filters by region, age group, education.
+o	Trend Visuals: If there's time info (tenure or monthly data), show trends.
+
